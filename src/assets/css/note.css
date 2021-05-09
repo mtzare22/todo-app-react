@@ -1,0 +1,26 @@
+.note {
+    width: 100%;
+    background-color: #eee;
+    padding: 0.3rem;
+    border:1px solid #eee;
+    border-radius: 0.4rem;
+    margin:0.3rem 0;
+    cursor: pointer;
+    position: relative;
+    transition:background-color 0.3s;
+}
+.note:hover {
+    background-color: rgb(101, 255, 165);
+}
+.noteTitle {
+    font-weight: 800;
+}
+.noteDone {
+    border-right: 5px solid green;
+}
+.close {
+    position: absolute;
+    left: 0;
+    margin: 0.3rem;
+    color:indianred;
+}
